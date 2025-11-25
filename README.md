@@ -16,10 +16,10 @@ Ideal para triagem populacional de baixo custo em UBS, aplicativos de saúde ou 
 ## Resultados Alcançados (Vigitel 2023 – n ≈ 21.689)
 | Modelo              | AUC-ROC | Acurácia | F1-score |
 |---------------------|---------|----------|----------|
-| Gradient Boosting   | 0.857   | 83,4%    | 0,84     |
-| Random Forest       | 0.870  | 81,9%    | 0,82     |
-| Rede Neural         | 0.813   | 80,5%    | 0,81     |
-| Regressão Logística | 0.787   | 77,1%    | 0,77     |
+| Gradient Boosting   | 0.857   | 77,8%    | 0,79     |
+| Random Forest       | 0.870   | 80,1%    | 0,81     |
+| Rede Neural         | 0.813   | 76,6%    | 0,77     |
+| Regressão Logística | 0.787   | 74,5%    | 0,75     |
 
 ## Como Executar
 
