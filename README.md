@@ -1,7 +1,7 @@
 # Predição de Diabetes Mellitus Tipo 2 com Inteligência Artificial  
 ### Base: Vigitel 2023 (Ministério da Saúde)  
 **Autor:** Heitor Augusto Freire Borges  
-**Orientação:** Marcos Lopes e Silvia Brandão 
+**Orientação:** Marcos Lopes e Silvia Brandão
 **Curso:** [Sistemas de Informação] – Centro Universitário UNA  
 **Projeto apresentado na EXPOUNA 2025.2**
 
