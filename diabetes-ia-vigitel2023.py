@@ -1,6 +1,5 @@
 # ============================================================================
-# MODELO DE PREDIÇÃO DE DIABETES TIPO 2 – VIGITEL 2023 (VERSÃO CORRIGIDA)
-# Correção principal: uso da coluna 'diab' (binária pronta) + garantia de y binário
+# MODELO DE PREDIÇÃO DE DIABETES TIPO 2 – VIGITEL 2023
 # ============================================================================
 
 import pandas as pd
@@ -22,10 +21,10 @@ warnings.filterwarnings('ignore')
 
 df = pd.read_excel('Vigitel-2023-peso-rake.xlsx')
 
-# Variável alvo correta (já binária no dataset!)
+# Variável alvo correta
 df['diabetes'] = df['diab']                     # 0 = não / 1 = sim
 
-# Features com nomes exatos do Vigitel 2023
+# Nomes exatos do Vigitel 2023
 df['idade'] = df['q6']
 df['sexo'] = df['q7'] - 1                       # 0 = Masculino, 1 = Feminino
 df['escolaridade'] = df['q8a']
@@ -138,4 +137,5 @@ prever_diabetes_paciente(
     peso_kg=85, altura_cm=158,
     hipertensao=True, ativo=False, flv_diario=False,
     fumante=False, alcool_abusivo=False
+
 )
